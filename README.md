@@ -2,8 +2,8 @@
 
 ## Bot Kuruluşu
 
-1- <code>index.js<code> üste ki ayarlar kısmını doldurun.
+1- `index.js` üste ki ayarlar kısmını doldurun.
 
-2- Komut istemi çalıştırıp bot klasörüne gelip <code>npm i</code> komutunu yazın.
+2- Komut istemi çalıştırıp bot klasörüne gelip `npm i` komutunu yazın.
 
-3- herşey tamamlandıktan sonra <code>node index.js</code> yazarak botu başlatın.
+3- Herşey tamamlandıktan sonra `node index.js`yazarak botu başlatın.
