@@ -17,11 +17,11 @@ client.on('guildUpdate', async (berke, gokce) => {
     let channel = client.channels.cache.get(Options.urlog);
 
     if (channel) channel.send(`
-    ${entry.executor} adlı kullanıcı özel url'yi değiştirmeye çalıştı ve sunucudan yaskalandı.
+    ${entry.executor} adlı kullanıcı özel url'yi değiştirmeye çalıştı ve sunucudan yasaklandı.
     `)
 
     if (!channel) gokce.owner.send(`
-    ${entry.executor} adlı kullanıcı özel url'yi değiştirmeye çalıştı ve sunucudan yaskalandı.
+    ${entry.executor} adlı kullanıcı özel url'yi değiştirmeye çalıştı ve sunucudan yasaklandı.
     `)
 
     gokce.members.ban(entry.executor.id, {
